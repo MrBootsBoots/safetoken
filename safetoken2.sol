@@ -6,10 +6,10 @@ contract DividendToken{
  
     using SafeMath for uint256;
 
-    string public name = "Dividend Token";
-    string public symbol = "DIV";
+    string public name = "TestToken";
+    string public symbol = "TT";
     uint8 public decimals = 0;  
-    uint256 public totalSupply_ = 1000000;
+    uint256 public totalSupply_ = 1000;
     uint256 totalDividendPoints = 0;
     uint256 unclaimedDividends = 0;
     uint256 pointMultiplier = 1000000000000000000;
